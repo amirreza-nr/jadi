@@ -5,4 +5,4 @@ def sum(*args):
 
     return sum
 
-print(sum(1,2,3))
+print(sum())
