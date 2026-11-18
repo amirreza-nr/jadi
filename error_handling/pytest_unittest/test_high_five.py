@@ -7,4 +7,8 @@ def test_high_five():
 
 def test_high_five2():
     assert high_five(4) == False
-    assert high_five(5.5) == False
+
+def test_errors():
+    assert high_five(10.0) == True
+    with pytest.raises(TypeError):
+        high_five(5.5)

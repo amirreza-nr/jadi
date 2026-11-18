@@ -1,4 +1,7 @@
 def high_five(num):
+    if int(num) != num:
+        raise TypeError
+
     if num % 5 == 0:
         return True
     return False
