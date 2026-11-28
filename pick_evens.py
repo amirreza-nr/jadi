@@ -4,7 +4,6 @@ def pick_evens(*nums):
     for n in nums:
         if n % 2 == 0:
             evens.append(n)
-
     return evens
 
 
